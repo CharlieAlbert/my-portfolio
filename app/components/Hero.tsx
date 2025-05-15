@@ -4,6 +4,8 @@ import { motion } from "framer-motion";
 import Particles from "./Particles";
 import { useEffect, useState } from "react";
 import { Twitter, Instagram, Github, Linkedin } from "lucide-react";
+import Image from "next/image";
+import Logo from "@/public/logo.png";
 
 const navLinks = ["About", "Projects", "Resume", "Contact"];
 
@@ -76,8 +78,22 @@ export default function Hero() {
   };
 
   return (
-    <section className="min-h-screen flex flex-col justify-center items-center text-center px-4 pt-20 relative overflow-hidden">
+    <section className="min-h-screen flex flex-col justify-center items-center text-center px-4 pt-10 relative overflow-hidden">
       <Particles />
+
+      <motion.div
+        initial={{ opacity: 0, scale: 0.8 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ delay: 0.2, duration: 0.4 }}
+      >
+        <Image
+          src={Logo}
+          alt="thisguycharles logo"
+          width={250}
+          height={56}
+          className="rounded-full mb-6"
+        />
+      </motion.div>
 
       <motion.h1
         initial={{ opacity: 0, y: 20 }}
@@ -101,7 +117,7 @@ export default function Hero() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.6, duration: 0.6 }}
-        className="text-lg md:text-xl text-gray-600 max-w-2xl mb-8"
+        className="text-lg md:text-xl text-gray-600 max-w-2xl mb-6"
       >
         I build delightful, functional digital experiences that empower people
         and businesses to grow and thrive.

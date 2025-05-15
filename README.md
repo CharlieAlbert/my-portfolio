@@ -1,36 +1,83 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Charles Nderitu | Portfolio
 
-## Getting Started
+![Portfolio Preview](public/profile.jpg)
 
-First, run the development server:
+A modern, responsive portfolio website built with Next.js, showcasing my skills, projects, and professional experience.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Interactive UI** - Engaging user interface with smooth animations powered by Framer Motion
+- **Responsive Design** - Fully responsive layout that works on all devices
+- **Particle Background** - Dynamic interactive particle network in the hero section using tsParticles
+- **Project Showcase** - Highlighting my best work with detailed project information
+- **Contact Section** - Easy ways to get in touch and connect with me
+- **Modern Tech Stack** - Built with the latest web technologies
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Technologies
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **[Next.js](https://nextjs.org/)** - React framework for production
+- **[TypeScript](https://www.typescriptlang.org/)** - Type-safe JavaScript
+- **[Tailwind CSS](https://tailwindcss.com/)** - Utility-first CSS framework
+- **[Framer Motion](https://www.framer.com/motion/)** - Animation library
+- **[tsParticles](https://particles.js.org/)** - Particle background effects
+- **[Lucide React](https://lucide.dev/)** - Beautiful & consistent icon set
 
-## Learn More
+## 🚀 Getting Started
 
-To learn more about Next.js, take a look at the following resources:
+### Prerequisites
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Node.js 18.x or later
+- npm or yarn
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Installation
 
-## Deploy on Vercel
+1. Clone the repository
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   git clone https://github.com/CharlieAlbert/my-portfolio.git
+   cd my-portfolio
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+2. Install dependencies
+
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. Run the development server
+
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result
+
+## 📝 Project Structure
+
+- `app/` - Next.js app directory
+  - `components/` - Reusable UI components
+  - `page.tsx` - Main page component
+  - `layout.tsx` - Root layout
+- `public/` - Static assets
+- `lib/` - Utility functions and data
+
+## 📱 Connect With Me
+
+- **Email**: [charlieraph36@gmail.com](mailto:charlieraph36@gmail.com)
+- **GitHub**: [CharlieAlbert](https://github.com/CharlieAlbert)
+- **LinkedIn**: [Charles Nderitu](https://linkedin.com/in/charles-nderitu)
+- **Twitter**: [@\_thisguycharles](https://twitter.com/_thisguycharles)
+- **Instagram**: [@thisguycharles\_](https://instagram.com/thisguycharles_)
+- **Schedule a call**: [Calendly](https://calendly.com/charlieraph36)
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+---
+
+Designed & built with ❤️ by Charles Nderitu © 2025
