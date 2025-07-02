@@ -100,6 +100,15 @@ export default function Resume() {
           </div>
         ))}
       </div>
+      <div style={{ textAlign: "start", marginTop: "2rem" }}>
+        <a
+          href="/CHARLES_NDERITU_RESUME.pdf"
+          download
+          className="inline-flex items-center px-4 py-2 bg-indigo-600 text-white font-medium rounded-lg hover:bg-indigo-700 transition-colors"
+        >
+          Download Resume
+        </a>
+      </div>
     </section>
   );
 }
