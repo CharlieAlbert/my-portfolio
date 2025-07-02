@@ -127,7 +127,7 @@ export default function About() {
               experiences.
             </p>
             <motion.a
-              href="/Charles_Albert_Nderitu_CV.pdf"
+              href="/CHARLES_NDERITU_RESUME.pdf"
               download
               whileHover={{
                 scale: 1.05,
