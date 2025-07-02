@@ -165,8 +165,8 @@ export default function Footer() {
             © {currentYear} Charles Nderitu. All rights reserved.
           </p>
           <p className="text-gray-600 text-sm flex items-center">
-            Made with <Heart size={14} className="mx-1 text-red-500" /> using
-            Next.js
+            Made with <Heart size={14} className="mx-1 text-red-500" /> by
+            Charles Nderitu
           </p>
         </motion.div>
       </div>
